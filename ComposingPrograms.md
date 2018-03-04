@@ -1,15 +1,21 @@
-<!-- TOC -->
-
-- [Notes on Composing Programs](#notes-on-composing-programs)
-    - [1.1 Start](#11-start)
-    - [1.2 ELements of programming](#12-elements-of-programming)
-
-<!-- /TOC -->
-
 # Notes on Composing Programs
 
 ref: [Structure and Interpretation of Computer Programs][ref1]
 
+Spring 2018
+
+Instructor: John DeNero
+
+## Contents
+
+<!-- TOC -->
+
+- [Notes on Composing Programs](#notes-on-composing-programs)
+    - [Contents](#contents)
+    - [1.1 Start](#11-start)
+    - [1.2 ELements of programming](#12-elements-of-programming)
+
+<!-- /TOC -->
 <!-- link -->
 [ref1]:http://mitpress.mit.edu/sicp
 
