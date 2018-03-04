@@ -12,14 +12,14 @@ Instructor: John DeNero
 
 - [Notes on Composing Programs](#notes-on-composing-programs)
     - [Contents](#contents)
-    - [1.1 Start](#11-start)
-    - [1.2 ELements of programming](#12-elements-of-programming)
+    - [1-1 start](#1-1-start)
+    - [1-2 elements of programming](#1-2-elements-of-programming)
 
 <!-- /TOC -->
 <!-- link -->
 [ref1]:http://mitpress.mit.edu/sicp
 
-## 1.1 Start
+## 1-1 start
 
 1. Priciples: beauty, simplicity and readability
 
@@ -55,7 +55,7 @@ Instructor: John DeNero
 <!-- links -->
 [st1]:https://docs.python.org/3/index.html
 
-## 1.2 ELements of programming
+## 1-2 elements of programming
 
 1. Aims programming serves:
     - instruction to a computer
