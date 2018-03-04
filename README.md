@@ -14,7 +14,7 @@ Lecture | Reading | Note | Handout | Homework
 [r1]:http://composingprograms.com/pages/11-getting-started.html
 [r2]:http://composingprograms.com/pages/12-elements-of-programming.html
 
-[n1]:https://amblizer.xyz/2018/03/02/CS61A/#cs61a-note---01-functions
+[n1]:https://amblizer.xyz/2018/03/02/cs61a/#1-1-start
 
 ## Suggested accompany
 
