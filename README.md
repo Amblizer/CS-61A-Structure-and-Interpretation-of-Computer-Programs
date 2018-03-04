@@ -1,18 +1,20 @@
-# Amblizer's learning path of CS 61A
+# Amblizer's Pathway of CS 61A 2018
 
 This is my learning path of CS 61A
 
-## Pathgraph
+## Pooling Chart
 
 Lecture | Reading | Note | Handout | Homework
 ---|---|---|---|---
-[functions][v1] | [1.1][r1], [1.2][r2]
+[Functions][v1] | [1.1][r1], [1.2][r2]|[Note 1][n1]
 
 <!-- links -->
 [v1]:https://www.youtube.com/watch?v=v5CP0zpYUcw&list=PL6BsET-8jgYUV8Jxv0D7BLxbg-xIkh0vk&vq=hd1080
 
 [r1]:http://composingprograms.com/pages/11-getting-started.html
 [r2]:http://composingprograms.com/pages/12-elements-of-programming.html
+
+[n1]:https://amblizer.xyz/2018/03/02/CS61A/#cs61a-note---01-functions
 
 ## Suggested accompany
 
