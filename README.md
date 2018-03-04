@@ -6,12 +6,13 @@ This is my learning path of CS 61A
 
 Lecture | Reading | Note | Handout | Homework
 ---|---|---|---|---
-[functions][v1] | [1.1][r1]
+[functions][v1] | [1.1][r1], [1.2][r2]
 
 <!-- links -->
 [v1]:https://www.youtube.com/watch?v=v5CP0zpYUcw&list=PL6BsET-8jgYUV8Jxv0D7BLxbg-xIkh0vk&vq=hd1080
 
 [r1]:http://composingprograms.com/pages/11-getting-started.html
+[r2]:http://composingprograms.com/pages/12-elements-of-programming.html
 
 ## Suggested accompany
 
