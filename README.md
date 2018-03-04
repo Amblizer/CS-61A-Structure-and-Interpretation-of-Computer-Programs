@@ -4,8 +4,8 @@ This is my learning path of CS 61A
 
 ## Pathgraph
 
-Lecture | Reading | Handout | Homework
----|---|---|---
+Lecture | Reading | Note | Handout | Homework
+---|---|---|---|---
 [functions][v1] | [1.1][r1]
 
 <!-- links -->
