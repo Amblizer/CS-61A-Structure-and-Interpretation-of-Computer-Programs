@@ -14,6 +14,8 @@ Instructor: John DeNero
     - [Contents](#contents)
     - [1-1 start](#1-1-start)
     - [1-2 elements of programming](#1-2-elements-of-programming)
+    - [1-3 define functions](#1-3-define-functions)
+    - [1-4 designing functions](#1-4-designing-functions)
 
 <!-- /TOC -->
 <!-- link -->
@@ -104,3 +106,43 @@ Instructor: John DeNero
 >If the implementation is hard to explain, it's a bad idea.
 >If the implementation is easy to explain, it may be a good >idea.
 >Namespaces are one honking great idea -- let's do more of those!
+
+## 1-3 define functions
+
+1. A function have signature and body
+    - Singature have all variebles needed
+    - body indict expressions and statements
+
+2. Names of variebles remain local within function bodies
+
+3. Choosing names: essential to the interpretability, and usually follow simple rules:
+    - lowercase, words separated by underscores, good to be descriptive
+    - parameter names should be lowercase, in single word, and meaningful
+
+4. A helper function can be write at a a later time in the function
+
+5. Functional abstracion:
+    - Domain:
+    - Range:
+    - Intention:
+
+>A programmer should not need to know how the function is implemented in order to use it
+
+## 1-4 designing functions
+
+1. Functions are abstractions:
+    - Single job for each function, with a shortname and a short description
+    - Don't repeat, abstract
+    - Generally defined, considering broader usage.
+
+1. Use docstring, triple quoted:
+    - First line: job of the function
+    - Following lines: argument and behavior
+    - Use _help(function)_ to see the docstring
+    - Write docstrings for all functions necessary
+
+>Code is written only once, but often read many times.
+
+1. Comments: attached following the # symbol, fr humans alone
+
+1. Values should be assigned defauts in most cases.
