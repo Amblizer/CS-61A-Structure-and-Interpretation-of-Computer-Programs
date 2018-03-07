@@ -43,9 +43,9 @@ Instructor: John DeNero
         - Check assumptions, make sure assumptions check with codes precisely
         - Peer consulting, chart of valuable helpers
 
-            Name|Specialize
-            ---|---
-            [Official Py Documentation][st1]|Everything
+Name|Specialize
+---|---
+[Official Py Documentation][st1]|Everything
 
 >The fundamental equation of computers is:
 >
