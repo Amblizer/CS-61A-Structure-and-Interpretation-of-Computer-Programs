@@ -16,6 +16,7 @@ Instructor: John DeNero
     - [1-2 elements of programming](#1-2-elements-of-programming)
     - [1-3 define functions](#1-3-define-functions)
     - [1-4 designing functions](#1-4-designing-functions)
+    - [1-5 control](#1-5-control)
 
 <!-- /TOC -->
 <!-- link -->
@@ -146,3 +147,26 @@ Instructor: John DeNero
 1. Comments: attached following the # symbol, fr humans alone
 
 1. Values should be assigned defauts in most cases.
+
+## 1-5 control
+
+1. Definitions
+    - Statement: to change thethe interpreter state
+    - Clause: a header and an indented suit of statemtns, and a suite is controlled by a header
+    - Compound Statement: consists of arbitary number of clauses
+    - Execution rule: excuted in order, end by redirection to  control
+    - Modular Programs: where pure functions interact only via the values they take and return.
+
+>To execute a sequence of statements, execute the first statement. If that statement does not redirect control, then proceed to execute the rest of the sequence of statements, if any remain.
+
+1. Local Assignment: bind a name to a value within the local frame
+
+1. Conditional statements: conditional statements, bool contexts, bool values
+
+1. Iteration
+
+1. Testing
+    - Assert statments: followed by a bool expression, and a text for _FALSE_, proceeded to next only when expectation is met.
+    - Doctests: seperate by a blank line from the description
+    - Unit Test: test that applies a single function, should be exhaustive.
+    - Key: test immediately after implementing
