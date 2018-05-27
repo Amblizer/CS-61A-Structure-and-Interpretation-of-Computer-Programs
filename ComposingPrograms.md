@@ -66,7 +66,7 @@ Name|Specialize
 
 1. Notice means to combine simple expresions and statement to complex combination and abstractions
 
-1. Expression: operators and operands
+1. Expression: operators and operands, evaluated
     - with infix notation, eg. 1/2 + (1/4 + 1/8 + 1/16) + 1/32 + 1/64 + 1/128
     - with function notaton, eg. max(min(1, -2), min(pow(3, 5), -4)), and have __THREE__ advantages over infix ones:
         - arbitary number of arguments
@@ -150,23 +150,29 @@ Name|Specialize
 
 ## 1-5 control
 
-1. Definitions
-    - Statement: to change thethe interpreter state
-    - Clause: a header and an indented suit of statemtns, and a suite is controlled by a header
-    - Compound Statement: consists of arbitary number of clauses
-    - Execution rule: excuted in order, end by redirection to  control
-    - Modular Programs: where pure functions interact only via the values they take and return.
+1. Statements
 
->To execute a sequence of statements, execute the first statement. If that statement does not redirect control, then proceed to execute the rest of the sequence of statements, if any remain.
+    _To change the interpreter state, executed -- govern the relationship among different expressions in a program and what happens to their results._
+
+    - Classes
+        - Assignment
+        - Return
+        - Control: under condition
+
+    - Statements → clause, clauses → compound statement
+    - Execution rule: excuted in order, end by redirection to control.
+    - Indentation: same amount, same way
+
 
 1. Local Assignment: bind a name to a value within the local frame
 
 1. Conditional statements: conditional statements, bool contexts, bool values
+    - Functions that perform comparisons and return boolean values typically begin with is, not followed by an underscore
 
 1. Iteration
 
 1. Testing
     - Assert statments: followed by a bool expression, and a text for _FALSE_, proceeded to next only when expectation is met.
     - Doctests: seperate by a blank line from the description
-    - Unit Test: test that applies a single function, should be exhaustive.
+    - _Unit Test: test that applies a single function, should be exhaustive._
     - Key: test immediately after implementing
