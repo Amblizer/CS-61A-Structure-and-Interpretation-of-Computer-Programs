@@ -168,6 +168,11 @@ Name|Specialize
 
 1. Conditional statements: conditional statements, bool contexts, bool values
     - Functions that perform comparisons and return boolean values typically begin with is, not followed by an underscore
+    - Priority: not > and > or
+    - Short-curcuiting: evaluate from left to right, up to
+        - `and`: the first `False` value
+        - `or`: the first `True` value
+    - `and` and `or` don't always return booleans when using values other than `True` and `False`.
 
 1. Iteration
 
