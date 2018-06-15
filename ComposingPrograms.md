@@ -17,6 +17,7 @@ Instructor: John DeNero
     - [1-3 define functions](#1-3-define-functions)
     - [1-4 designing functions](#1-4-designing-functions)
     - [1-5 control](#1-5-control)
+    - [A-1 error messages](#a-1-error-messages)
 
 <!-- /TOC -->
 <!-- link -->
@@ -72,6 +73,10 @@ Name|Specialize
         - arbitary number of arguments
         - nested expressions in a straightforward way
         - easy to type, no limit to kinds
+    - Divisions:
+        - `/`, True division (decimal division)
+        - `//`, Floor division (integer division)
+        - `%`, Modulo (remainder)
 
 1. Definitions:
     - '=': assignment operator
@@ -85,6 +90,8 @@ Name|Specialize
         - more reliable to compose
         - simpler to test
         - essential for concurrent programs
+
+    > If Python reaches the end of the function body without executing a return statement, it will automatically return None.
 
 >_The Zen of Python_ by Tim Peters
 >
@@ -169,10 +176,12 @@ Name|Specialize
 1. Conditional statements: conditional statements, bool contexts, bool values
     - Functions that perform comparisons and return boolean values typically begin with is, not followed by an underscore
     - Priority: not > and > or
-    - Short-curcuiting: evaluate from left to right, up to
-        - `and`: the first `False` value
-        - `or`: the first `True` value
-    - `and` and `or` don't always return booleans when using values other than `True` and `False`.
+    - Short-curcuiting: `evaluate` _EXPRESSIONS_ from left to right, up to
+        - `and`: the first `False` value, the right argument doesn't get evaluated at all
+        - `or`: the first `True` value, the right argument doesn't get evaluated at all
+    - `and` and `or` don't always return booleans when using values other than `True` and `False`. <-- IMPORTANT [There's no `True` or `False` actually, only evaluation of expression by the rule above!]
+        - `False, None, 0 and [] ` are ALL FALSE VALUES
+        - Excellent exercise in lab01 for truthiness
 
 1. Iteration
 
@@ -181,3 +190,11 @@ Name|Specialize
     - Doctests: seperate by a blank line from the description
     - _Unit Test: test that applies a single function, should be exhaustive._
     - Key: test immediately after implementing
+
+
+## A-1 error messages
+
+1. IndentationError
+1. SyntaxError
+1. TypeError
+1. ZeroDivisionError
